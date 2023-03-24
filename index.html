@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task result.school (html css)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="card-student">
+
+    <main class="card-student__main">
+
+        <div class="container">
+        
+            <h2 class="card-student__title">Карточка студента</h2>
+
+            <div class="main-info">
+                <div class="avatar">
+                    <div class="avatar__background">
+                        <img src="img/photo.png" alt="Андрей Кутузов">
+                    </div>
+                </div>
+    
+                <section class="section info">
+                    <div class="info__content">
+                        <div class="info__description">
+                            <div class="info__description-item info-item">
+                                <span class="info-item__text info-item__text-bold">Имя, фамилия:</span>
+                                <span class="info-item__text">Кутузов Андрей</span>
+                            </div>
+                            <div class="info__description-item info-item">
+                                <span class="info-item__text info-item__text-bold">Возраст:</span>
+                                <span class="info-item__text">25 лет</span>
+                            </div>
+                            <div class="info__description-item info-item">
+                                <span class="info-item__text info-item__text-bold">Опыт в программировании:</span>
+                                <span class="info-item__text">4 года</span>
+                            </div>
+                            <div class="info__description-item info-item">
+                                <span class="info-item__text info-item__text-bold">О себе:</span>
+                                <span class="info-item__text">Junior frontend разработчик.
+                                    Активно интересуюсь frontend 
+                                    разработкой и всем что с ней
+                                    связано.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="section goals">
+                <h3 class="section__title goals__title">Мои цели на обучение</h3>
+                <ul class="section__list goals__list">
+                    <li class="goals__list-item">Хорошо освоить React</li>
+                    <li class="goals__list-item">Хорошо освоить TypeScript</li>
+                    <li class="goals__list-item">Получить знания по Redux</li>
+                    <li class="goals__list-item">Освоить Docker</li>
+                </ul>
+            </section>
+
+            <section class="section timetable">
+                <h3 class="section__title timetable__title">Сколько времени смогу учиться</h3>
+                <ul class="section__list timetable__list">
+                    <li class="timetable__list-item">
+                        <span class="timetable__list-item-day">Понедельник</span>
+                        <span class="timetable__list-item-hour">7-9 ч.</span>
+                    </li>
+                    <li class="timetable__list-item">
+                        <span class="timetable__list-item-day">Вторник</span>
+                        <span class="timetable__list-item-hour">7-9 ч.</span>
+                    </li>
+                    <li class="timetable__list-item">
+                        <span class="timetable__list-item-day">Среда</span>
+                        <span class="timetable__list-item-hour">7-9 ч.</span>
+                    </li>
+                    <li class="timetable__list-item">
+                        <span class="timetable__list-item-day">Четверг</span>
+                        <span class="timetable__list-item-hour">7-9 ч.</span>
+                    </li>
+                    <li class="timetable__list-item">
+                        <span class="timetable__list-item-day">Пятница</span>
+                        <span class="timetable__list-item-hour">7-9 ч.</span>
+                    </li>
+                    <li class="timetable__list-item">
+                        <span class="timetable__list-item-day">Суббота</span>
+                        <span class="timetable__list-item-hour">7-9 ч.</span>
+                    </li>
+                    <li class="timetable__list-item">
+                        <span class="timetable__list-item-day">Воскресенье</span>
+                        <span class="timetable__list-item-hour">2-3 ч.</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section courses">
+                <h3 class="section__title courses__title">Мои пройденные курсы</h3>
+                <table class="courses__table">
+                    <tr class="courses__table-row">
+                        <th class="courses__table-head courses__table-cell">Название</th>
+                        <th class="courses__table-head courses__table-cell">Автор</th>
+                        <th class="courses__table-head courses__table-cell">Оценка курса</th>
+                    </tr>
+                    <tr class="courses__table-row">
+                        <td class="courses__table-cell">HTML</td>
+                        <td class="courses__table-cell">Sololearn</td>
+                        <td class="courses__table-cell">10/10</td>
+                    </tr>
+                    <tr class="courses__table-row">
+                        <td class="courses__table-cell">CSS</td>
+                        <td class="courses__table-cell">Sololearn</td>
+                        <td class="courses__table-cell">10/10</td>
+                    </tr>
+                    <tr class="courses__table-row">
+                        <td class="courses__table-cell">PHP</td>
+                        <td class="courses__table-cell">Sololearn</td>
+                        <td class="courses__table-cell">10/10</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="section technologies">
+                <h3 class="section__title technologies__title">Используемые технологии</h3>
+                <ul class="section__list technologies__list">
+                    <li class="technologies__list-item">
+                        <div class="technologies__list-logo">
+                            <img src="img/html.svg" alt="html">
+                        </div>
+                        <span class="technologies__list-name">HTML</span>
+                    </li>
+                    <li class="technologies__list-item">
+                        <div class="technologies__list-logo">
+                            <img src="img/css.svg" alt="css">
+                        </div>
+                        <span class="technologies__list-name">CSS</span>
+                    </li>
+                    <li class="technologies__list-item">
+                        <div class="technologies__list-logo">
+                            <img src="img/javaScript.svg" alt="javascript">
+                        </div>
+                        <span class="technologies__list-name">JavaScript</span>
+                    </li>
+                    <li class="technologies__list-item">
+                        <div class="technologies__list-logo">
+                            <img src="img/react.svg" alt="react">
+                        </div>
+                        <span class="technologies__list-name">React</span>
+                    </li>
+                    <li class="technologies__list-item">
+                        <div class="technologies__list-logo">
+                            <img src="img/tailwindcss.svg" alt="tailwind">
+                        </div>
+                        <span class="technologies__list-name">Tailwind CSS</span>
+                    </li>
+                    <li class="technologies__list-item">
+                        <div class="technologies__list-logo">
+                            <img src="img/git.svg" alt="git">
+                        </div>
+                        <span class="technologies__list-name">Git</span>
+                    </li>
+                    <li class="technologies__list-item">
+                        <div class="technologies__list-logo">
+                            <img src="img/figma.svg" alt="figma">
+                        </div>
+                        <span class="technologies__list-name">Figma</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section contacts">
+                <h3 class="section__title contacts__title">Контакты</h3>
+                <div class="contacts__social">
+                    <ul class="section__list social">
+                        <li class="social__item">
+                            <a href="#" class="social__item-link">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#telegram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__item-link">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#vk"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__item-link">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#github"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
